@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Docslot</title>
+    <style>
+        table {
+            animation: transitionIn-Y-bottom 0.5s;
+        }
+        /* Button style for Make Appointment */
+        .btn-primary {
+            background-color: #28a745; /* Green */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn-primary:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+        /* Login Button */
+        .login-btn {
+            background-color: #007bff; /* Blue */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .login-btn:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Register Button */
+        .register-btn {
+            background-color: #ffc107; /* Yellow */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .register-btn:hover {
+            background-color: #e0a800; /* Darker yellow on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="full-height">
+        <center>
+        <table border="0">
+            <tr>
+                <td width="80%">
+                    <font class="edoc-logo">Docslot</font>
+                </td>
+                <td width="10%">
+                   <a href="login.php">
+                       <button class="login-btn">Login</button>
+                   </a>
+                </td>
+                <td width="10%">
+                    <a href="signup.php">
+                        <button class="register-btn" style="padding-right: 10px;">Register</button>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p class="heading-text">Avoid Hassles & Delays.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p class="sub-text2">How is health today? Sounds like not good!<br>Don't worry. Find your doctor online. Book as you wish with Docslot.<br>
+                    We offer you a free doctor channeling service. Make your appointment now.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <center>
+                    <a href="login.php">
+                        <input type="button" value="Make Appointment" class="btn-primary" style="padding-left: 25px; padding-right: 25px; padding-top: 10px; padding-bottom: 10px;">
+                    </a>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        </center>
+    </div>
+</body>
+</html>
