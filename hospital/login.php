@@ -85,6 +85,7 @@
                 //TODO
                 $checker = $database->query("select * from doctor where docemail='$email' and docpassword='$password'");
                 if ($checker->num_rows==1){
+                    
 
 
                     //   doctor dashbord
